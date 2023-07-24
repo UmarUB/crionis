@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom practices</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <ul class="text-center list-unstyle">
+      <li class="text-primary intro" id="ub">umar</li>
+      <li class="text-secondary cl">sheri</li>
+      <li class="text-success cl intro">Asma rani</li>
+    </ul>
+    <h3 class="intro">Heeading 1</h3>
+    <div class="heads">
+      <p>paragraph 1</p>
+      <h3 >Heading 2</h3>
+      <p>paragraph 2</p>
+      <h3 >heading 3</h3>
+      <p>paragraph 3</p>
+    </div>
+    <script>
+        let elm=document.getElementById('intro');
+        let node=elm.parentElement;
+                console.log(node);
+    //     let qsel=document.querySelectorAll('h3,li.intro');
+    //     for(let c=0;c<qsel.length;c++){
+    //         qsel[c].innerHTML="<h1>Allah</h1>";
+    //     }
+    //     let div1=document.getElementById('div1');
+    //     let el=div1.getElementsByTagName('h3');
+    //   let ele = document.getElementsByClassName("cl");
+    //   //console.log(ele.length[2]);
+    //   for (let i = 0; i < ele.length; i++) {
+    //     ele[i].innerHTML = "<h2>umar Bilal</h2>";
+    //   }
+    //   let tSelect = document.getElementsByTagName("p");
+    //   for (let j = 0; j < tSelect.length; j++) {
+    //     tSelect[j].innerHTML = "<h1>Hello World</h1>";
+    //   }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <style>
+    #myForm {
+      display: none;
+    }
+  </style>
+  <script>
+    function openForm() {
+      var form = document.getElementById("myForm");
+      form.style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  <button onclick="openForm()">Open Form</button>
+  <form id="myForm">
+    <input type="text" name="name" placeholder="Enter your name">
+    <input type="email" name="email" placeholder="Enter your email">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:blue;
+            --warning-color:yellow;
+            --dark-color:black;
+        }
+        .container{
+             display: flex;
+            }
+        .card{
+            margin: 23px 12px;
+            padding: 23px 12px;
+            border: 2px solid var(--primary-color);
+            background-color: var(--warning-color)
+            
+        }
+        .card h2{
+            text-shadow: 12px 13px blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-2">
+            <h2>CARD 2</h2>
+        </div>
+        <div class="card" id="card-1">
+            <h2>CARD 1</h2>
+        </div>
+        <div class="card" id="card-3">
+            <h2>CARD 3</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
